@@ -41,6 +41,47 @@ let books = {
     "reviews": {
       "user3": "Raw and honest coming-of-age story."
     }
+  },
+  6: {
+    "isbn": "978-0-444444-44-4",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "reviews": {
+      "user1": "A wonderful adventure story."
+    }
+  },
+  7: {
+    "isbn": "978-0-555555-55-5",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "reviews": {
+      "user2": "Magical and enchanting.",
+      "user4": "Perfect for all ages."
+    }
+  },
+  8: {
+    "isbn": "978-0-666666-66-6",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "reviews": {
+      "user3": "Epic fantasy masterpiece."
+    }
+  },
+  9: {
+    "isbn": "978-0-777777-77-7",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "reviews": {
+      "user5": "Mind-bending science fiction."
+    }
+  },
+  10: {
+    "isbn": "978-0-888888-88-8",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "reviews": {
+      "user1": "Groundbreaking cyberpunk novel."
+    }
   }
 };
 

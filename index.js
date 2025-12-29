@@ -77,7 +77,7 @@ app.get('/books/title/:title', (req, res) => {
 });
 
 // Get reviews for a book
-app.get('/books/:isbn/reviews', (req, res) => {
+app.get('/books/:isbn/review', (req, res) => {
   const isbn = req.params.isbn;
   const book = Object.values(books).find(book => book.isbn === isbn);
 
@@ -89,7 +89,7 @@ app.get('/books/:isbn/reviews', (req, res) => {
 });
 
 // Add or modify a review (requires authentication)
-app.post('/books/:isbn/reviews', authenticateToken, (req, res) => {
+app.put('/books/:isbn/review', authenticateToken, (req, res) => {
   const isbn = req.params.isbn;
   const { review } = req.body;
   const username = req.user.username;
@@ -112,7 +112,7 @@ app.post('/books/:isbn/reviews', authenticateToken, (req, res) => {
 });
 
 // Delete a review (requires authentication)
-app.delete('/books/:isbn/reviews', authenticateToken, (req, res) => {
+app.delete('/books/:isbn/review', authenticateToken, (req, res) => {
   const isbn = req.params.isbn;
   const username = req.user.username;
 
