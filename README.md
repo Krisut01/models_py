@@ -1,48 +1,29 @@
-# Paradise Nursery Shopping Application
+Final Project: Submission and Evaluation
+About this assignment:
+Assignment type: Graded
+Time Limit: Unlimited
+Estimated Time: 30 minutes
+Assignment attempts: Unlimited
+Passing Grade: 70%
+Description: In the final project, you applied your back-end development skills to build a server-side application for an online bookstore. The application includes several key features such as user authentication, book search, and review management, while also addressing concurrent access. You will now be evaluated based on the following criteria:
+Retrieving a list of all available books
+Searching for books by ISBN, author name, or title
+Accessing reviews for specific books
+Registering as a new user and logging into their account
+Adding, updating, and deleting reviews for books
+Note: A provided JSON file containing book details will be used as the data source and evaluated during testing.
+Instructions:
+Complete all tasks required for the Final project. Ensure all tasks are completed and your work is committed and saved in the corresponding files within the project's GitHub repository.
+Select 'Begin the Assignment' to get started.
+Read each question and submit your response by providing screenshots/text created for the project.
+Once you've answered all the questions, select 'Submit assignment.'
+Review the feedback provided to understand your performance and areas for improvement.
 
-## Project Overview
-This is a comprehensive e-commerce web application for Paradise Nursery, built with React and Redux Toolkit. The application allows users to browse and purchase houseplants from various categories.
 
-## Features
-- **Landing Page**: Welcome page with company branding and navigation
-- **Product Catalog**: Browse plants by categories with detailed information
-- **Shopping Cart**: Add, remove, and update quantities of plants
-- **Responsive Design**: Works seamlessly across different devices
-
-## Technologies Used
-- React 18
-- TypeScript
-- Redux Toolkit for state management
-- CSS for styling
-- React Router for navigation
-
-## Project Structure
-```
-paradise-nursery/
-├── src/
-│   ├── components/
-│   │   ├── AboutUs.jsx
-│   │   ├── ProductList.jsx
-│   │   └── CartItem.jsx
-│   ├── redux/
-│   │   └── CartSlice.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   └── index.js
-├── README.md
-└── package.json
-```
-
-## Getting Started
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
-4. Open [http://localhost:3000](http://localhost:3000) to view the application
-
-## Available Scripts
-- `npm start` - Runs the app in development mode
-- `npm run build` - Builds the app for production
-- `npm test` - Launches the test runner
-
-## Author
-Paradise Nursery Development Team
+Based on the provided text and instructions, the final project involves developing a server-side application for an online bookstore. Evaluation is based on the following criteria:
+Retrieving a list of all available books
+Searching for books by ISBN, author name, or title
+Accessing reviews for specific books
+Registering as a new user and logging into their account
+Adding, updating, and deleting reviews for books
+A provided JSON file containing book details will be used as the data source and evaluated during testing.

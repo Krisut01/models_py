@@ -1,0 +1,4 @@
+curl -X GET "http://localhost:5000/books/author/George%20Orwell"
+
+Response:
+[{"isbn":"978-0-111111-11-1","title":"1984","author":"George Orwell","reviews":{"user1":"Disturbing vision of a totalitarian future.","user4":"Timeless warning about surveillance and power."}}]

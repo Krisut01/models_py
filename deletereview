@@ -1,0 +1,4 @@
+curl -X DELETE "http://localhost:5000/books/978-0-987654-32-1/reviews" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNzY2OTc0NDMyLCJleHAiOjE3NjcwNjA4MzJ9.nMPifSG4hHZfxG6aa1LR9GKFaA6ycoxrYEoi8Hkkw-Y"
+
+Response:
+{"message":"Review deleted successfully","reviews":{"user3":"Powerful story about racism and justice."}}

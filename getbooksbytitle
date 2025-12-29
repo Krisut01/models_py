@@ -1,0 +1,4 @@
+curl -X GET "http://localhost:5000/books/title/Pride%20and%20Prejudice"
+
+Response:
+[{"isbn":"978-0-222222-22-2","title":"Pride and Prejudice","author":"Jane Austen","reviews":{"user2":"Witty social commentary and romance.","user5":"One of the greatest novels ever written."}}]
