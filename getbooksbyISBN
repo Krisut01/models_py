@@ -1,4 +1,0 @@
-curl -X GET "http://localhost:5000/books/isbn/978-0-123456-78-9"
-
-Response:
-{"isbn":"978-0-123456-78-9","title":"The Great Gatsby","author":"F. Scott Fitzgerald","reviews":{"user1":"A classic American novel about the Jazz Age.","user2":"Beautiful prose and deep themes."}}

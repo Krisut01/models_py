@@ -1,4 +1,0 @@
-curl -X PUT "http://localhost:5000/books/978-0-987654-32-1/review" -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNzY2OTc0NDMyLCJleHAiOjE3NjcwNjA4MzJ9.nMPifSG4hHZfxG6aa1LR9GKFaA6ycoxrYEoi8Hkkw-Y" -d '{"review":"An excellent book about moral growth and justice."}'
-
-Response:
-{"message":"Review added/modified successfully","reviews":{"user3":"Powerful story about racism and justice.","testuser":"An excellent book about moral growth and justice."}}
