@@ -106,7 +106,7 @@ You are required to upload GitHub repository URLs and screenshots showing your p
 
 Task 1: Submit the GitHub URL of the models.py file, which includes the Question, Choice, and Submission models. (3 points)
 
-Task 2: Submit the GitHub URL of the admin.py file, which includes seven imported classes, along with the implementations of QuestionInline, ChoiceInline, QuestionAdmin, and LessonAdmin. (3 points)
+Task 2: Submit the GitHub URL of the admin.py file, which includes seven imported classes, along with the implementations of QuestionInline, ChoiceInline, QuestionAdmin, and   LessonAdmin. (3 points)
 
 Task 3: Submit a screenshot of the admin site with the image name 03-admin-site that displays the “Authentication and Authorization” section and the “OnlineCourse” section. (1 point)
 
