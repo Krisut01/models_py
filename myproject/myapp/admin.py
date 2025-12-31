@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.models import Group
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.admin import GroupAdmin
-from .models import Course, Lesson, Question, Choice, Submission
+from .models import Course, Lesson, Question, Choice, Submission, Instructor, Learner
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
@@ -46,3 +46,14 @@ class SubmissionAdmin(admin.ModelAdmin):
 class CourseAdmin(admin.ModelAdmin):
     list_display = ['title', 'created_at']
     search_fields = ['title', 'description']
+
+@admin.register(Instructor)
+class InstructorAdmin(admin.ModelAdmin):
+    list_display = ['user', 'expertise']
+    search_fields = ['user__username', 'expertise']
+
+@admin.register(Learner)
+class LearnerAdmin(admin.ModelAdmin):
+    list_display = ['user']
+    search_fields = ['user__username']
+    filter_horizontal = ['enrolled_courses']

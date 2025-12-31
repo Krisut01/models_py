@@ -1,6 +1,21 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+class Instructor(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    bio = models.TextField(blank=True)
+    expertise = models.CharField(max_length=200, blank=True)
+
+    def __str__(self):
+        return f"Instructor: {self.user.username}"
+
+class Learner(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    enrolled_courses = models.ManyToManyField('Course', blank=True)
+
+    def __str__(self):
+        return f"Learner: {self.user.username}"
+
 class Course(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
